@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Practice Test</title>
+</head>
+<body>
+    <div class="container">
+       <hr> <h1>Student Form</h1><hr>
+        <form>
+            <label for="txtName">Name</label>
+            <input type="text" id="txtName" class="form-control" >
+            <label>Maths</label>
+            <input type="number" id="txtMaths" class="form-control" >
+            <label>English</label>
+            <input type="number" id="txtEnglish" class="form-control" >
+            <label>Passing Year</label>
+            <input type="number" id="txtPassingYear" class="form-control" ><br>
+            <input type="button" id="btnSubmit" class="form-control btn btn-success" value="Add Details" >
+        </form><br>
+
+        <table class="table" id="detailTable">
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Average</td>
+                <td>Passing Year</td>
+                <td>Date Added</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="js/index2.js"></script>
+</html>
